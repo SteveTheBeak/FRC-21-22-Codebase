@@ -391,7 +391,7 @@ public class Robot extends TimedRobot {
      double ultrasonicDist = ultrasonic.getVoltage()*vtd;
     
 
-    //privously commented out[
+    //previously commented out[
     if(50 <= ultrasonicDist && ultrasonicDist <= 62){
       //LIGHTS ARE GREEN
       // System.out.println("in range");
